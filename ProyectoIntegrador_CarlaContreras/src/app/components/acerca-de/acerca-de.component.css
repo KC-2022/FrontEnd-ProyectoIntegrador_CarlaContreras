@@ -23,8 +23,8 @@ div{
         width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
-        left: 38%;
-        top: 200px;
+        left: 35%;
+        top: 410px;
     }
 }
 
@@ -32,4 +32,6 @@ div{
 #nombre{
     font-weight: bold;
     margin-top: 30%;
+    font-style: italic;
+    font-size: x-large;
 }
