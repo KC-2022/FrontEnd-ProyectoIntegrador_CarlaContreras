@@ -1,5 +1,5 @@
 div{
-    background-color: rgb(48, 56, 128)
+    background: linear-gradient(to right, rgb(14, 195, 174), rgb(48, 56, 128));
 }
 app-social{
     float: right;
