@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/proyecto-integrador-carla-contreras",
+    "public": "dist\\proyecto-integrador-carla-contreras",
     "ignore": [
       "firebase.json",
       "**/.*",

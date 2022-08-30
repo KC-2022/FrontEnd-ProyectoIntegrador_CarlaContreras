@@ -2,6 +2,12 @@
     background: linear-gradient(to right, rgb(14, 195, 174), rgb(48, 56, 128));
     padding: 20px;
 }
-h3, h4{
+h3, h4, h5, h6{
     display: inline;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
 }
