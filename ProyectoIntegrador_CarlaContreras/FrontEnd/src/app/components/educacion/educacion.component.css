@@ -11,3 +11,7 @@ table {
     position: relative;
     border-collapse: collapse;
 }
+th, td {
+    text-align: left;
+    position: sticky;
+  }
