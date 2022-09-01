@@ -10,8 +10,7 @@ div{
     #fotodeperfil{
         position: absolute;
         width: 15%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
+        border-radius: 50%;
         left: 3%;
         top: 350px;
     }
@@ -21,17 +20,20 @@ div{
     #fotodeperfil{
         position: absolute;
         width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
+        border-radius: 50%;
         left: 35%;
-        top: 410px;
+        top: 220px;
     }
 }
 
-/*etiqueta nombre*/
+
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 20%;
     font-style: italic;
     font-size: x-large;
+}
+
+.img-circle{
+    border-radius: 50%;
 }

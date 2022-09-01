@@ -15,19 +15,3 @@ img{
 .btn{
     border-width: 0.17em;
 }
-
-/*vista celu*/
-
-@media (max-width: 575px){
-    .container{
-        flex-direction: column;
-    }
-    .redes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .redes.img{
-        margin: 0.2em;
-    }
-}
