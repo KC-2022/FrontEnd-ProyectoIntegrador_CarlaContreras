@@ -15,3 +15,8 @@ th, td {
     text-align: left;
     position: sticky;
   }
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}

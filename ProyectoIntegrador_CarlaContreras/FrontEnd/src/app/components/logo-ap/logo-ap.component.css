@@ -15,3 +15,23 @@ img{
 .btn{
     border-width: 0.17em;
 }
+
+@media (max-width: 445px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .redes{
+        margin-right: 1.2em;
+    }
+    #logoAP{
+        width: 100px;
+    }
+    img{
+        width: 40px;
+    }
+    .btn{
+        border-width: 0.17em;
+    }  
+}

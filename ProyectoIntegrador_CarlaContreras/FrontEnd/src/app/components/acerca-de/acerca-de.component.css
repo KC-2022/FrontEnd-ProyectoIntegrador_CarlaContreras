@@ -1,3 +1,16 @@
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+img{
+    width: 100%;
+}
+
 .row{
     background: linear-gradient(to right, rgb(14, 195, 174), rgb(48, 56, 128));
     padding: 20px;
@@ -5,28 +18,8 @@
 div{
     text-align: center;
 }
-/*estilo foto de perfil*/
-@media (min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-        width: 15%;
-        border-radius: 50%;
-        left: 3%;
-        top: 350px;
-    }
-}
 
-@media (max-width: 575px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%;
-        border-radius: 50%;
-        left: 35%;
-        top: 220px;
-    }
-}
-
-
+/*etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 20%;
@@ -36,4 +29,17 @@ div{
 
 .img-circle{
     border-radius: 50%;
+}
+
+#acercade{
+    margin-top: 4%;
+}
+
+#desc{
+    text-align: left;
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        width: 50%;
+    }
 }
