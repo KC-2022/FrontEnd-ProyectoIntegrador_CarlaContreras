@@ -10,8 +10,8 @@ import { Experiencia } from '../model/experiencia';
 
 
 export class SExperienciaService {
-  URL = 'https://backendcdsc.herokuapp.com/explab/'
-  
+  //URL = 'https://backendcdsc.herokuapp.com/explab/'
+  URL = 'https://super-sponge-production.up.railway.app/explab/'
 
   constructor(private httpClient: HttpClient) { }
 

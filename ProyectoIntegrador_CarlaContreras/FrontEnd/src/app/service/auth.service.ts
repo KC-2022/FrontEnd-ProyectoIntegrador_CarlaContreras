@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = 'https://backendcdsc.herokuapp.com/auth/';
+  URL = 'https://super-sponge-production.up.railway.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

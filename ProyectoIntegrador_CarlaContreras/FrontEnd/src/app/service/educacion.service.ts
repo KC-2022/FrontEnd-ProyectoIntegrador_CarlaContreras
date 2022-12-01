@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = 'https://backendcdsc.herokuapp.com/educacion/';
+  URL = 'https://super-sponge-production.up.railway.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

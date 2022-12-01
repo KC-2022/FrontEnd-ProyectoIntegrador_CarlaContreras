@@ -1,13 +1,26 @@
 <div class="row">
     <h2 style="color:#ffffff">Proyectos Realizados</h2>
-    <div class="contenedor">
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-outline-light" routerLink="/newproyectos" *ngIf="isLogged">
+            Nuevo Proyecto
+        </button>
+    </div>
+    <div class="contenedor" *ngFor="let proyectos of proyectos">
         <div class="col-sm-12 col-md-7 col-lg-7 parte1">
-            <h3 style="color:#ffffff">Portfolio Personal</h3>
-            <p style="color:#ffffff">Trabajo Final "Argentina Programa" #YoProgramo-2022</p>
+            <p style="color:#ffffff">{{proyectos.nombre}}</p>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-            <img src="../../../assets/Screenshot_1.jpg" class="img-fluid img-proyecto">
+            <img src="{{proyectos.img}}" class="img-fluid img-proyecto">
         </div>
-
+        <div>
+            <td *ngIf="isLogged">
+                <button class="btn btn-outline-light" routerLink="/editsproyectos/{{proyectos.id}}">
+                    <i class="bi bi-pencil-fill"></i> EDITAR</button>
+            </td>
+            <td *ngIf="isLogged">
+                <button class="btn btn-outline-light" (click)="delete(proyectos.id)">
+                    <i class="bi bi-trash-fill"></i> BORRAR</button>
+            </td>
+         </div>
     </div>
 </div>
